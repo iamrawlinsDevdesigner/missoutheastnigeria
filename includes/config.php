@@ -14,7 +14,7 @@ function get_site_mode($conn) {
 
 $site_mode = get_site_mode($conn);
 
-if ($site_mode == 'maintenance' && basename($_SERVER['PHP_SELF']) != 'maintenance.php' && basename($_SERVER['PHP_SELF']) != 'toggle.php') {
+if ($site_mode == 'maintenance' && basename($_SERVER['PHP_SELF']) != 'maintenance.php') {
     header("Location: maintenance.php");
     exit();
 }

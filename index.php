@@ -9,5 +9,6 @@
 <body>
     <h1>Welcome to Miss South East Nigeria</h1>
     <p>The official pageantry platform where beauty meets purpose.</p>
+    <a href="contestants/enter_email.php">Register as Contestant</a>
 </body>
 </html>
